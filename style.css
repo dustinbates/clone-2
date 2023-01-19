@@ -1,0 +1,45 @@
+.getting-started {
+    background-image: url(https://freedesignfile.com/upload/2017/06/Black-textured-background-vectors-03.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.horse-lg {
+    font-size: 100pt;
+}
+
+.navbar-green {
+    color: green;
+    text-decoration: none;
+}
+
+.navbar {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navbar-shadow {
+    box-shadow: .5px .5px 5px rgba(0, 0, 0, 0.402);
+}
+
+.meeting-img {
+    border: 10px solid white;
+    box-shadow: .5px .5px 5px rgba(0, 0, 0, 0.313);
+}
+
+.service-shadow {
+    box-shadow: .5px .5px 5px rgba(0, 0, 0, 0.176);
+}
+
+.light-bulb-guy {
+    max-height: 50vh;
+}
+
+ul {
+    list-style: none;
+
+}
+
+ul li:before {
+    content: "✔️";
+}
