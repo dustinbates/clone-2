@@ -32,14 +32,15 @@
         </div>
     </landing>
 
+
     <header>
 
         <div class="container-fluid navbar-shadow">
             <div class="row">
-                <div class="col-5">
+                <div class="col-12 col-md-5">
                     <i class="mdi mdi-horse fs-1 ms-5"></i>
                 </div>
-                <div class="col-7 d-flex justify-content-evenly align-items-center">
+                <div class="col-md-7 d-md-flex justify-content-evenly align-items-center d-none">
                     <a href="" class="navbar-green">Home</a>
                     <a href="" class="navbar">About</a>
                     <a href="" class="navbar">Services</a>
@@ -54,7 +55,6 @@
 
     </header>
 
-    <body>
 
         <div class="container">
             <div class="row">
@@ -80,7 +80,7 @@
                     <h2>SERVICES</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dignissimos odit.</p>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="order-2 order-md-1 col-12 col-md-6">
                     <div class="row">
                         <div class="col-2">
                             <i class="mdi mdi-script-text-outline fs-1 text-success"> </i>
@@ -116,16 +116,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="order-1 order-md-2 col-12 col-md-6 d-flex align-items-center">
                     <img src="img1.jpeg" alt="" class="img-fluid">
                 </div>
-                <div class="col-12 col-md-6 pt-5">
+                <div class="order-3 col-12 col-md-6 pt-5">
                     <img src="img2.jpeg" alt="" class="img-fluid light-bulb-guy">
                 </div>
                 <!-- LOOK HERE!!!!!! You need to add a d-flex in this section! not, row!!! -->
-                <div class="col-12 col-md-6 d-flex justify-content-between pt-5">
+                <div class="order-4 col-12 col-md-6 d-flex justify-content-between pt-5">
                     <div class="row">
-
                         <div class="col-12">
                             <div class="service-shadow  p-3">
                                 <h5 class="text-success">Lorem, ipsum dolor.</h5>
@@ -133,36 +132,58 @@
                                     velit. Lorem ipsum dolor sit amet.</p>
                             </div>
                         </div>
-
                         <div class="col-12 p-3">
                             <h5>Lorem, ipsum dolor.</h5>
                             <p>Lorem ipsum, dolor sit amet
                                 velit.</p>
                         </div>
-
                         <div class="col-12 p-3">
                             <h5>Lorem, ipsum dolor.</h5>
                             <p>Lorem ipsum, dolor sit amet
                                 velit.</p>
                         </div>
-
                         <div class="col-12 p-3">
                             <h5>Lorem, ipsum dolor.</h5>
                             <p>Lorem ipsum, dolor sit amet
                                 velit. Lorem ipsum dolor sit amet.</p>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="container-fluid bg-light mt-5">
+            <div class="row">
+                <div class="order-2 order-md-1 col-12 col-md-5 offset-md-1 text-start p-5">
+                    <h2>Lorem ipsum dolor sit, amet <b>consectetur adipisicing elit. Fugit.</b></h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, repellat et a aliquam ut repudiandae illo minus molestias totam repellendus, porro facilis, provident suscipit. Mollitia!</p>
+                    
+                    <div class="d-flex flex-column"> 
+                        <div class="card p-3 my-2 text-start">
+                            <h6 class="text-success"><b>01 Lorem ipsum dolor sit amet consectetur adipisicing elit</b></h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequatur soluta inventore neque harum, eveniet beatae deserunt eos sapiente est laudantium officia architecto excepturi! Iure.</p>
+                        </div>
+                        <div class="card p-3 my-2 text-start">
+                            <h6 class="text-success"><b>02 Lorem ipsum dolor sit amet consectetur adipisicing elit</b></h6>
+                        </div>
+                        <div class="card p-3 my-2 text-start">
+                            <h6 class="text-success"><b>03 Lorem ipsum dolor sit amet consectetur adipisicing elit</b></h6>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="order-1 order-md-2 col-12 col-md-5 offset-md-1 p-0 d-flex align-items-center">
+                    <img src="img4.jpeg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        
 
-    </body>
 
     <footer></footer>
 
 </body>
+
+
 
 </html>
